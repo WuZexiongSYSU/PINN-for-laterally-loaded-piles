@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "source_checkpoint": "train_save/Fc/model",
+  "source_history": "train_save/Fc/datas",
+  "source_checkpoint_sha256": "096b37a795682691c5e68c76902a9e44db89d6df76a8896a7a9e112a2a90f0e9",
+  "source_history_sha256": "3ca2d392582fb5c45204b00fe8c512ac7356dd6f8370c79fb6d8b90f88da5055",
+  "architecture": [
+    3,
+    60,
+    60,
+    60,
+    60,
+    1
+  ],
+  "independent_networks": 2,
+  "branch_order": [
+    "moment",
+    "shear"
+  ],
+  "activation": [
+    "Tanhshrink",
+    "Tanh",
+    "Tanh",
+    "Tanhshrink"
+  ],
+  "dtype": "float32",
+  "reference_MtN_m": 0.001,
+  "reference_VtN_m": 0.001,
+  "training_domain": {
+    "LpN": [
+      1.5,
+      5.0
+    ],
+    "n": [
+      0.5,
+      2.0
+    ],
+    "xN": "[0, LpN]"
+  },
+  "archived_history_epochs": 656000,
+  "limitations": [
+    "The archive contains no optimizer state or original random seed.",
+    "The final checkpoint is paired with a 656000-entry history, not an independently verified epoch counter.",
+    "The available training trace is not asserted to be the exact trace printed in Figure 4."
+  ],
+  "files": {
+    "data/training_history.csv.gz": "21500f335e711b2965bde41a8c7547bd98c283167ef8626900d1e8f2bb536755",
+    "data/figure9_cases.csv": "764a4754fca8d601e118ea5d7e212ea3fc80d41007d9690467a7a8a21c2a26a7",
+    "data/figure9_fem_reference.csv": "add336baff9ebf916ab49087f471dd238f138eb1826319373d36f68f4d448135",
+    "data/figure9_calibration.json": "f5c5637f36686ec5f90ba3d2f7443111982213fa407b265e1b86cab7a68e9573",
+    "models/pinn_model.pt": "5dea57b9cc2987e413c4cc18fda6efc16d3fbb3075148e46441077d86648c696"
+  }
+}

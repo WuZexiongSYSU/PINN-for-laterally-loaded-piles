@@ -1,0 +1,11 @@
+# Python 3.10-3.12. For CUDA-specific wheels, follow your PyTorch installation setup.
+torch>=2.6,<3
+numpy>=1.24,<3
+pandas>=2.0,<3
+matplotlib>=3.7,<4
+ipython>=8,<10
+ipykernel>=6.25,<7
+jupyterlab>=4,<5
+nbformat>=5.9,<6
+nbclient>=0.5.13,<1
+nbconvert>=7,<8

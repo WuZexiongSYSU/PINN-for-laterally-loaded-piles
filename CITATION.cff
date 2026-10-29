@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Please cite the preferred paper when using this implementation or reference data."
+title: "PINN analysis of laterally loaded piles"
+type: software
+version: 0.1.0
+date-released: 2026-10-28
+license: MIT
+authors:
+  - name: "PINN pile notebook contributors"
+abstract: "A single Jupyter notebook implementing physics-only training and reference comparisons for laterally loaded piles."
+keywords:
+  - physics-informed neural networks
+  - laterally loaded piles
+  - Winkler foundation
+  - Jupyter
+preferred-citation:
+  type: article
+  title: "Physics-Informed Neural Network Analysis of Laterally Loaded Piles Based on Elastic Subgrade Reaction Approach"
+  authors:
+    - family-names: Wu
+      given-names: Zexiong
+    - family-names: Li
+      given-names: Xueyou
+    - family-names: Liu
+      given-names: Siwei
+    - family-names: Wan
+      given-names: Jian-Hong
+  year: 2026
+  journal: "International Journal for Numerical and Analytical Methods in Geomechanics"
+  doi: 10.1002/nag.70382

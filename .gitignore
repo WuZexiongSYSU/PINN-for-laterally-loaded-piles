@@ -1,0 +1,14 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# New training artifacts; curated model and reproducibility outputs are tracked.
+results/trained_model.pt
+results/training_history.csv.gz
+results/training_config.json
+results/smoke_executed.ipynb
